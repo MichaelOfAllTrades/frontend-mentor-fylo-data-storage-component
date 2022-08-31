@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.barContainer {
+  flex: 1;
+  height: 12px;
+  background: #dfdfe7;
+  border-radius: 12px;
+  overflow: hidden; /* Crucial part */
+}
+
+.textValue {
+  margin-left: 8px;
+  width: 42px;
+  text-align: right;
+}
+
+.fillerBackground {
+  height: inherit;
+  transition: "width 2s ease-i-out";
+  background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.filler {
+  transition: "width 2s ease-i-out";
+  height: inherit;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

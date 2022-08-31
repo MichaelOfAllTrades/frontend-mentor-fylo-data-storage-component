@@ -1,0 +1,102 @@
+.data {
+  margin: auto;
+  /* background-color: red; */
+  height: 500px;
+  width: 350px;
+}
+
+.inner-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.fylo-div {
+  background-color: hsl(228, 56%, 26%);
+  padding: 35px;
+  border-radius: 10px 95px 10px 10px;
+  margin-bottom: 20px;
+}
+.logo-fylo {
+  margin-bottom: 35px;
+}
+
+.document-folder-upload-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 50px;
+}
+
+.icon-div {
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  display: flex;
+}
+.icon {
+  margin: auto;
+}
+
+.progress-bar-div {
+  background-color: hsl(228, 56%, 26%);
+  /* background-color: red; */
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: 140px;
+  display: flex;
+}
+.inner-progress-bar-div {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+.youve-used {
+  font-size: 14px;
+  color: hsl(229, 7%, 55%);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.gb {
+  color: white;
+}
+
+.gb-range {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lower {
+  color: hsl(243, 100%, 93%);
+  font-size: 12px;
+}
+.upper {
+  color: hsl(243, 100%, 93%);
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1000px) {
+  .data {
+    height: 350px;
+    width: 800px;
+  }
+  .inner-data {
+    flex-direction: row;
+  }
+  .fylo-div {
+    margin-bottom: 0px;
+    margin-right: 20px;
+    width: 350px;
+  }
+  .progress-bar-div {
+    margin-top: auto;
+    width: 500px;
+  }
+
+  .youve-used {
+    text-align: left;
+  }
+}
